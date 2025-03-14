@@ -14,7 +14,13 @@ public class Aula03 {
         double saldo = leitorDeDados.nextDouble();
         System.out.println("Seu saldo é: " + saldo);
 
+        System.out.print("Informe seu saldo: ");
+        char genero = leitorDeDados.next().charAt(0);
+        System.out.println("Seu saldo é: " + saldo);
 
+        System.out.print("Informe seu saldo: ");
+        String nome = leitorDeDados.next();
+        System.out.println("Seu saldo é: " + saldo);
         leitorDeDados.close();
     }
 }
