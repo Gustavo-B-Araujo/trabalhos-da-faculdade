@@ -1,4 +1,5 @@
-package aulas;// Tipos primitivos de dados;
+package aulas;
+// Tipos primitivos de dados;
 
 public class Aula02 {
     public static void main(String[] args) {
